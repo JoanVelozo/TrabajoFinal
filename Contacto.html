@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: rgba(6, 46, 46, 0.945);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+    <main>
+        <br>
+        <a class="atras" href="inicio.html">Volver Atrás</a>
+        <div class="titulo">
+            <font size="7"> <u>Formulario de Contacto</u></font>
+        </div>
+        <br>
+        <center>
+            <form action="ingreso.php" method="post">
+                <label>Nombres y Apellidos:</label>
+                <div>
+                    <input type="text" name="nombres" required maxlength="40">
+                </div>
+
+                <label>Correo Electrónico:</label>
+                <div>
+                    <input type="email" name="correo" required maxlength="40">
+                </div>
+
+                <label>Asunto:</label>
+                <div>
+                    <input type="text" name="asunto" required maxlength="40">
+                </div>
+
+                <label>Mensaje:</label>
+                <div>
+                    <textarea name="mensaje" rows="4" cols="35" required></textarea>
+                </div>
+
+                <div>
+                    <button class="button" type="submit" value="Ingresar Datos"> Ingresar Datos </button>
+                </div>
+            </form>
+        </center>
+        <br>
+        <br>
+    </main>
+    
+    <main>
+        <table class="tabla" border="3">
+            <caption>
+                <center>
+                    <font size="5"> <u>Integrantes de la Organización </u> </font>
+                </center>
+            </caption>
+            <tr>
+                <td>
+                    <center>Imagen </center>
+                </td>
+                <td>
+                    <center>Nombres y Apellidos </center>
+                </td>
+                <td>
+                    <center>Función </center>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="fotos/tapia.jpg" alt="" width="80px"></td>
+                <td>
+                    <center>Claudio, Tapia </center>
+                </td>
+                <td>
+                    <center> Dueño del Lugar </center>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="fotos/scaloni.jpg" alt="" width="80px"> </td>
+                <td>
+                    <center>Lionel, Scaloni </center>
+                </td>
+                <td>
+                    <center> Pastelero </center>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="fotos/messilionel.jpg" width="80px"></td>
+                <td>
+                    <center> Lionel, Messi </center>
+                </td>
+                <td>
+                    <center> Pastelero </center>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <br>
+    <div class="volver">
+        <a href="#volver">
+          <font style="color:rgb(245, 9, 9)">Volver Arriba </font>
+      </a>
+    </div>
+    <br>
+    <footer>
+        <p class="autor"> Autor: VELOZO, JOAN SEBASTIAN. </p>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Ccomprar.css">
+    <link rel="stylesheet" href="java">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title> La Pasteleria </title>
+    <cerrar id="volver"></cerrar>
+    <script>
+        function otraPagina() {
+            var confirmar = confirm("Estás seguro que quieres salir de éste sitio?");
+            if (confirmar) {
+                window.location.href = "https://www.google.com.ar/"
+            }
+        }
+    </script>
+</head>
+<body class="fondo">
+    <br>
+        <a class="atras" href="inicio.html">Volver Atrás</a>
+        <br>
+        <br>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- Barra de navegación modificada y extraida de Bootstrap -->
+     <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="inicio.html"> INICIO </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false"> PRODUCTOS
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="tortascyc.html"> TORTAS CLASICAS Y DE CUMPLEAÑOS </a></li>
+                          <li><a class="dropdown-item" href="macarons.html"> MACARONS </a></li>
+                          <li><a class="dropdown-item" href="miniT.html"> MINI TORTAS </a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Contacto.html"> CONTACTO </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Ccomprar.html"> COMO COMPRAR </a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"> BUSCAR </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--Fin de la barra de navegaciòn-->
+    <br>
+    <center>
+        <img src="fotos/LOGO.png" alt="logo" width="200" height="200">
+    </center>
+    <br>
+    <center>
+    <div class="calcular">
+        <h2>¡Disfrute de cada articulo al 100%!</h2>
+        <p>●Para comprar, realice lo siguiente..</p>
+        <ul>
+            <li>▷Ingrese el precio del articulo deseado</li>
+            <li>▷Haz click en el boton "Calcule Aquí"</li>
+            <li>▷Descubre su valor!</li>
+        </ul>
+        <span>▷Ingrese el valor en (PESOS)</span>
+        <p><a class="botenestilo" href="#" role="button" id="boton"> Calcule Aquí</a>
+        </p>
+        <script src="compS.js"></script>
+    </div>
+    </center>
+    <br>
+    <button class="salir" onclick="otraPagina()">Salir</button>
+    <footer>
+        <p class="autor"> Autor: VELOZO, JOAN SEBASTIAN. </p>
+        </footer>
+</body>
